@@ -22,8 +22,14 @@
   padding: 5px;
   border: 0px solid #ccc;
   border-radius: 0px;
-  width: 350px;
+  min-width: 350px;
   background-color: #dfdfdf;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .search-input {
+    min-width: 200px;
+  }
 }
 .search-input:focus {
   outline: none;

@@ -1,29 +1,41 @@
 .card-parent-container {
-  max-width: 300px;
+  width: 200px;
   border: 1px solid gray;
   border-radius: 15px;
   margin-top: 10px;
 }
 
-.card-image-container {
-  background-color: gray;
-  height: 250px;
-  /* border: 1px solid gray; */
+.card-poster {
+  /* border-radius: 10px; */
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
+  margin: 0;
+  padding-bottom: 5px;
 }
-
 .card-title-rating {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 10px;
+  margin: 0;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  max-width: 89px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-rating {
-  color: #dfdfdf;
+  color: #9b9b9b;
 }
 
 .card-desc {
   padding-inline: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
